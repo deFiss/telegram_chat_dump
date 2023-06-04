@@ -1,0 +1,6 @@
+.idea/
+venv/
+__pycache__/
+account_session.session
+account_session.session-journal
+dumps/
