@@ -46,8 +46,7 @@ class Dumper:
 
         logger.info(f"Account authorization was successful")
 
-        # self.chat_name = input("Enter the name of the chat for the dump in the form that you see it in the list of dialogs: ")
-        self.chat_name = "deFiss"
+        self.chat_name = input("Enter the name of the chat for the dump in the form that you see it in the list of dialogs: ")
 
         chat_id = await self._get_chat_id(self.chat_name)
         
